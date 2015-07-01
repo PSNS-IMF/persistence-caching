@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Psns.Common.Persistence.Caching</id>
+    <title>Psns Common Persistence Caching</title>
+    <authors>PSNS</authors>
+    <owners>109.14</owners>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description></description>
+    <projectUrl>https://github.com/PSNS-IMF/persistence-caching</projectUrl>
+    <licenseUrl>https://github.com/PSNS-IMF/persistence-caching/blob/master/LICENSE.md</licenseUrl>
+    <releaseNotes>
+      ## 1.0.0.0
+      ### Features
+      * Initial release
+    </releaseNotes>
+    <version>$version$</version>
+    <tags>PSNS, caching</tags>
+    <dependencies>
+      <dependency id="EnterpriseLibrary.Caching" version="5.0.505.0" />
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Configuration" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="*.transform" target="content" />
+    <file src="src\Psns.Common.Persistence.Caching\bin\$configuration$\Psns.Common.Persistence.Caching.*" target="lib\net45\" />
+  </files>
+</package>

@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Psns.Common.Persistence.Caching", "src\Psns.Common.Persistence.Caching\Psns.Common.Persistence.Caching.csproj", "{F94D857B-8AD5-4A15-B6BE-4D5CEB708D51}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A13582CD-28E9-4FAB-B00B-04E44FD5F5C7}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		app.config.transform = app.config.transform
+		build.bat = build.bat
+		Build.proj = Build.proj
+		LICENSE.md = LICENSE.md
+		Psns.Common.Persistence.Caching.nuspec = Psns.Common.Persistence.Caching.nuspec
+		README.md = README.md
+		web.config.transform = web.config.transform
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Caching.UnitTests", "test\Caching.UnitTests\Caching.UnitTests.csproj", "{D365BF0F-4575-4B72-A9BF-28831B9F0EF3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C70E8ED0-40BB-4DD5-91C5-DC3F4DDB6440}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{E3089EBA-9606-43D8-9855-3E0F15CD862D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F94D857B-8AD5-4A15-B6BE-4D5CEB708D51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F94D857B-8AD5-4A15-B6BE-4D5CEB708D51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F94D857B-8AD5-4A15-B6BE-4D5CEB708D51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F94D857B-8AD5-4A15-B6BE-4D5CEB708D51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D365BF0F-4575-4B72-A9BF-28831B9F0EF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D365BF0F-4575-4B72-A9BF-28831B9F0EF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D365BF0F-4575-4B72-A9BF-28831B9F0EF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D365BF0F-4575-4B72-A9BF-28831B9F0EF3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F94D857B-8AD5-4A15-B6BE-4D5CEB708D51} = {C70E8ED0-40BB-4DD5-91C5-DC3F4DDB6440}
+		{D365BF0F-4575-4B72-A9BF-28831B9F0EF3} = {E3089EBA-9606-43D8-9855-3E0F15CD862D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.0\lib\NET35;packages\Unity.Interception.2.1.505.0\lib\NET35;packages\EnterpriseLibrary.Common.5.0.505.0\lib\NET35;packages\EnterpriseLibrary.Caching.5.0.505.0\lib\NET35
+	EndGlobalSection
+EndGlobal
