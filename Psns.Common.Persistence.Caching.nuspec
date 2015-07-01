@@ -15,7 +15,7 @@
       * Initial release
     </releaseNotes>
     <version>$version$</version>
-    <tags>PSNS, caching</tags>
+    <tags>PSNS caching</tags>
     <dependencies>
       <dependency id="EnterpriseLibrary.Caching" version="5.0.505.0" />
     </dependencies>
