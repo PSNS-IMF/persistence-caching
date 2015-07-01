@@ -9,7 +9,7 @@
           numberToRemoveWhenScavenging="10" backingStoreName="FileSystemBackingStore" />
     </cacheManagers>
     <backingStores>
-      <add path="C:\temp\" type="Psns.Common.Persistence.Caching.FileSystemBackingStore, Psns.Common.Persistence.Caching.FileSystemBackingStore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+      <add path="C:\temp\" type="Psns.Common.Persistence.Caching.FileSystemBackingStore, Psns.Common.Persistence.Caching, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
           name="FileSystemBackingStore" />
     </backingStores>
   </cachingConfiguration>
