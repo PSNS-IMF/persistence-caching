@@ -6,7 +6,7 @@
     <authors>PSNS</authors>
     <owners>109.14</owners>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <description></description>
+    <description>Contains an implementation of Microsoft Enterprise Library Caching Block, BackingStore that uses the file system as storage</description>
     <projectUrl>https://github.com/PSNS-IMF/persistence-caching</projectUrl>
     <licenseUrl>https://github.com/PSNS-IMF/persistence-caching/blob/master/LICENSE.md</licenseUrl>
     <releaseNotes>
